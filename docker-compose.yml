@@ -49,8 +49,8 @@ services:
       - bankapp-net
 
   volumes:
-      - mysql-data
-      - ollama-data
+      mysql-data
+      ollama-data
 
   networks:
     bankapp-net:
@@ -59,6 +59,7 @@ services:
 
 
     
+
 
 
 
